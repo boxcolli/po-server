@@ -29,7 +29,7 @@ $ docker build -t po-server -f Dockerfile .
 실행하기
 ```
 빠른 실행
-$ docker run -p 8080:8080 po-server
+$ docker run po-server
 
 응답 확인을 위한 로그
 $ docker run -e LOG=true -p 8080:8080 po-server
