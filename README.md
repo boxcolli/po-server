@@ -3,9 +3,9 @@
 
 ## Quick start
 ```
-$ git clone "github.com/boxcolli/po-server"
+$ git clone https://github.com/boxcolli/po-server.git
 $ cd po-server-java
-$ docker build -t po-server -f Dockerfile .
+$ docker build -t po-server .
 $ docker run po-server
 ```
 
