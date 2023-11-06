@@ -5,16 +5,22 @@
 ```
 (Docker 설치, 실행한 상태)
 
-$ docker pull asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server
+(Intel, AMD)
+$ docker pull asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server-amd64
+$ docker tag asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server-amd64 po-server
 
-$ docker tag asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server po-server
+(Apple chip)
+$ docker pull asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server-arm64
+$ docker tag asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server-arm64 po-server
 
-$ docker run -p 8080:8080 po-server
+(Run)
+$ docker run po-server (port: 8080)
 ```
+
 ### 플래그 사용하기
 ```
 응답 확인을 위한 로그
-$ docker run -e LOG=true -p 8080:8080 po-server
+$ docker run -e LOG=true po-server
 
 포트 번호 바꾸기 (50051로 연결하기)
 $ docker run -p 50051:8080 po-server
