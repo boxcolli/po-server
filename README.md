@@ -14,7 +14,7 @@ $ docker pull asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server-arm6
 $ docker tag asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server-arm64 po-server
 
 (Run)
-$ docker run po-server (port: 8080)
+$ docker run po-server
 ```
 
 ### 플래그 사용하기
