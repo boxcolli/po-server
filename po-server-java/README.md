@@ -24,7 +24,7 @@ $ SET PORT=8080 (Windows)
 ### 도커 이미지
 빌드하기
 ```
-$ docker build -t po-server -f Dockerfile
+$ docker build -t po-server -f Dockerfile .
 ```
 실행하기
 ```
