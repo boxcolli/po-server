@@ -1,5 +1,7 @@
 ## /po-client-cpp
+### 실행하기
 ```
+(http ping request)
 $ c++ main.cpp -o main -lcurl
 $ ./main
 Response: pong
