@@ -13,7 +13,7 @@ $ docker tag asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server-amd64
 $ docker pull asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server-arm64
 $ docker tag asia-northeast3-docker.pkg.dev/sandboxcolli/for-knu/po-server-arm64 po-server
 
-(Run)
+(Run; default port: 8080)
 $ docker run po-server
 ```
 
