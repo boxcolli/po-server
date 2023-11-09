@@ -6,7 +6,7 @@
 $ git clone https://github.com/boxcolli/po-server.git
 $ cd po-server-java
 $ docker build -t po-server .
-$ docker run po-server
+$ docker run -p 8080:8080 po-server
 ```
 
 ## HTTP API
